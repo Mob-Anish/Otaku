@@ -1,0 +1,36 @@
+.news__story {
+  float: left;
+
+  img {
+    transform: skewX(12deg);
+  }
+
+  width: 11.5rem;
+  height: 11.5rem;
+  shape-outside: circle(50% at 50% 50%);
+  clip-path: circle(50% at 50% 50%);
+  transform: skewX(12deg);
+  position: relative;
+
+  img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    transform: scale(1);
+  }
+}
+
+.news__text {
+  transform: skewX(12deg);
+  margin-top: 1rem;
+  margin-left: 13rem;
+
+  h3{
+    color: #ff8b25;
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+}

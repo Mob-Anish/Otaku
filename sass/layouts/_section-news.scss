@@ -1,0 +1,30 @@
+.section__news {
+  position: relative;
+  height: 100vh;
+
+  .news__grid {
+    padding-top: 6rem;
+
+    .title__news {
+      margin-bottom: 5rem;
+    }
+
+    .grid__container {
+      display: grid;
+      grid-template-columns: auto auto;
+      row-gap: 6rem;
+      column-gap: 10rem;
+      justify-content: center;
+      padding: 2rem;
+
+      .grid-item {
+        width: 50rem;
+        height: 15rem;
+        background-color: $color-secondary;
+        padding: 2rem;
+        transform: skewX(-12deg);
+        box-shadow: 0 1.5rem 2.2rem rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
+}

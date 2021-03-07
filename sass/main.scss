@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+@import "base/base.scss";
+@import 'base/animation';
+@import 'base/typography.scss';
+
+@import 'button/buttons';
+
+@import "layouts/header.scss";
+@import 'layouts/section-genre';
+@import 'layouts/section-news';
+@import 'layouts/section-movies';
+@import 'layouts/section-manga';
+@import 'layouts/section-signup';
+@import 'layouts/section-login';
+@import 'layouts/footer';
+
+@import 'components/story';
+@import 'components/bg-video';
+@import 'components/form';
+

@@ -1,0 +1,54 @@
+.header {
+  height: 100vh;
+  background-color: #0000;
+  padding: 3rem 1rem;
+  background-image: url('../img/bg-2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+
+  .logo__navbar {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__logo-box {
+    a {
+      text-decoration: none;
+      font-size: 5.4rem;
+      color: $color-primary;
+    }
+  }
+
+  .nav__bar {
+    align-items: center;
+    margin-top: 2rem;
+
+    .nav__bar-links {
+      list-style: none;
+
+      li {
+        display: inline-block;
+        padding: 0 4rem;
+        font-size: 2.6rem;
+
+        a:link,
+        a:visited {
+          transition: all 0.3s ease 0s;
+          text-decoration: none;
+          color: $color-secondary;
+        }
+      }
+    }
+  }
+
+  &__description {
+    color: $color-secondary;
+    font-size: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30rem;
+  }
+}
+

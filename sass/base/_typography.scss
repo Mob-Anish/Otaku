@@ -1,0 +1,21 @@
+$color-primary: #ff8b25;
+$color-secondary: #ffff;
+$color-tertiary: rgb(255, 23, 23);
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.7; // 1.7 times bigger than predefined line height
+}
+
+.heading-primary {
+  font-size: 4rem;
+  text-align: center;
+  color: $color-secondary;
+}
+
+.heading-secondary {
+  font-size: 4rem;
+  text-align: left;
+  color: $color-primary;
+  margin-bottom: 21rem;
+}

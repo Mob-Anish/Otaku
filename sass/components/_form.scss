@@ -1,0 +1,56 @@
+.form {
+  margin-bottom: 1.9rem;
+
+  &__group:not(:last-child) {
+    margin-bottom: 1.3rem;
+  }
+
+  &__input {
+    font-size: 1.7rem;
+    font-family: inherit;
+    color: #777;
+    padding: 1.5rem 2rem;
+    border-radius: 0.2rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: none;
+    border-bottom: 3px solid transparent;
+    width: 90%;
+    display: block;
+    transition: all 0.4s;
+
+    &:focus {
+      outline: none;
+      box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.3);
+      border-bottom: 5px solid $color-primary;
+      background-color: rgba(255, 255, 255, 0.9);
+    }
+
+    // Invalid input
+    &:focus:invalid {
+      border-bottom: 3px solid $color-tertiary;
+    }
+
+    &::-webkit-input-placeholder {
+      color: #777;
+    }
+  }
+
+  &__label {
+    color: rgb(110, 106, 106);
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-left: 2rem;
+    margin-top: 0.7rem;
+    display: block;
+    transition: all 0.1s;
+  }
+
+  // If the text written in placeholder, animate the label
+  // Selecting input field and its sibling with placeholder shown
+  // + is sibling selector that is next to it
+  &__input:placeholder-shown + &__label {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-4rem);
+  }
+}

@@ -1,0 +1,15 @@
+.footer {
+  height: 20vh;
+  background-color: #000000;
+  padding: 1rem 1.2rem;
+
+  .header__logo-box {
+    text-align: center;
+  }
+
+  &__copyright {
+    color: $color-secondary;
+    font-size: 1.4rem;
+    text-align: center;
+  }
+}
