@@ -7,4 +7,4 @@
 
 # Limitation
 
-- It is not responsive website.
+- It is not a responsive website.
