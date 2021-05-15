@@ -8,3 +8,4 @@
 # Limitation
 
 - It is not a responsive website.
+- The pictures that are used in the site are from third party sites so it may look good on the sites.
